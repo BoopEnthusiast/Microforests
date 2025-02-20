@@ -32,6 +32,7 @@ footer img {
         flex-direction: column;
     }
 }
+
 /* First page left column */
 .left-column {
     width: 33vw;
@@ -42,12 +43,36 @@ footer img {
     max-height: 75vh;
     width: 33vw;
     min-width: 33vw;
+    object-fit: cover;
 }
 
+.image-container {
+    position: relative;
+    
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    max-width: calc(100% - 60px);
+}
+
+/* First page middle column */
 .middle-column {
     width: 33vw;
 }
 
+
+/* First page right column */
+
+
+/* Fix columns for mobile */
 @media (max-width: 768px) {
     .left-column, .middle-column {
         width: 100vw;
