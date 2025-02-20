@@ -1,0 +1,48 @@
+/* Global */
+body {
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #CEDF52;
+}
+
+footer img {
+    height: 30px;
+}
+
+/* First page */
+.first-page {
+    display: flex;
+    height: 100vh;
+}
+
+.left-column {
+    width: 33vw;
+}
+
+.left-column img {
+    max-height: 75vh;
+    width: 33vw;
+    min-width: 33vw;
+}
+
+.middle-column {
+    width: 33vw;
+}
+
+
+/* Second page */
+.second-page {
+    display: flex;
+    height: 100vh;
+}
