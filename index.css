@@ -27,7 +27,7 @@ footer img {
     padding: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .first-page, .second-page {
         flex-direction: column;
     }
@@ -57,10 +57,16 @@ footer img {
     left: 20px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
-    border-radius: 3px;
+    padding-top: 0;
+    padding-bottom: 0;
     max-width: calc(100% - 60px);
+}
+
+.overlay-text h3, .overlay-text p {
+    margin: 0;
+    padding: 0;
 }
 
 /* First page middle column */
@@ -73,7 +79,7 @@ footer img {
 
 
 /* Fix columns for mobile */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .left-column, .middle-column {
         width: 100vw;
     }
