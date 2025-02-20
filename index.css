@@ -24,13 +24,21 @@ footer img {
 .first-page {
     display: flex;
     height: 100vh;
+    padding: 5px;
 }
 
+@media (max-width: 768px) {
+    .first-page, .second-page {
+        flex-direction: column;
+    }
+}
+/* First page left column */
 .left-column {
     width: 33vw;
 }
 
 .left-column img {
+    margin: 5px;
     max-height: 75vh;
     width: 33vw;
     min-width: 33vw;
@@ -40,6 +48,16 @@ footer img {
     width: 33vw;
 }
 
+@media (max-width: 768px) {
+    .left-column, .middle-column {
+        width: 100vw;
+    }
+    
+    .left-column img {
+        width: calc(100vw - 20px);
+        min-width: calc(100vw - 20px);
+    }
+}
 
 /* Second page */
 .second-page {
