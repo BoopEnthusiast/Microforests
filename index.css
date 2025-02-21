@@ -35,18 +35,31 @@ footer {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #CEDF52;
+    box-sizing: border-box
 }
 
 footer img {
     height: 30px;
 }
 
+@media (max-width: 1000px) {
+    main {
+        margin-bottom: 1000px;
+    }
+
+    footer {
+        position: static;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
 /* First page */
 .first-page {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     padding: 5px;
     gap: 10px;
 }
@@ -139,6 +152,19 @@ footer img {
 
 /* Second page */
 .second-page {
-    display: flex;
     height: 100vh;
+    padding: 5px;
+    gap: 10px;
+}
+
+.second-page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.second-page-container-title-container {
+    font-size: x-large;
+    line-height: 0;
+    background-color: #CEDF52;
 }
