@@ -160,11 +160,14 @@ footer img {
 .second-page-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .second-page-container-title-container {
     font-size: x-large;
     line-height: 0;
     background-color: #CEDF52;
+}
+
+.second-page-content-container img {
+    width: 30%;
 }
