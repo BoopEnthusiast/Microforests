@@ -116,7 +116,9 @@ footer img {
 
 
 /* First page right column */
-
+.quote {
+    font-size: small;
+}
 
 /* Fix columns for mobile */
 @media (max-width: 1000px) {
