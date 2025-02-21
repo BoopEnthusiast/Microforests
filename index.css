@@ -66,7 +66,6 @@ footer img {
 
 .image-container {
     position: relative;
-    
 }
 
 .overlay-text {
@@ -96,6 +95,12 @@ footer img {
     background-color: #CEDF52;
     padding: 5px;
     border-radius: 5px;
+}
+
+.middle-column img {
+    width: 33vw;
+    min-width: 33vw;
+    object-fit: cover;
 }
 
 
