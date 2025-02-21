@@ -20,6 +20,12 @@ h2 {
     font-size: 2em;
 }
 
+h4 {
+    color: #CEDF52;
+    font-size: 1.5em;
+    line-height: 0;
+}
+
 /* Footer */
 footer {
     position: fixed;
@@ -103,6 +109,11 @@ footer img {
     object-fit: cover;
 }
 
+#middle-column-info-box-caption {
+    transform: translateY(-15px);
+    font-size: small;
+}
+
 
 /* First page right column */
 
@@ -114,6 +125,11 @@ footer img {
     }
     
     .left-column img {
+        width: calc(100vw - 20px);
+        min-width: calc(100vw - 20px);
+    }
+    .middle-column img {
+        padding: 5px;
         width: calc(100vw - 20px);
         min-width: calc(100vw - 20px);
     }
