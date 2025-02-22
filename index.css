@@ -18,6 +18,7 @@ h1 {
 h2 {
     color: #CEDF52;
     font-size: 2em;
+    line-height: 1em;
 }
 
 h4 {
@@ -100,6 +101,12 @@ footer img {
     max-width: calc(100% - 60px);
 }
 
+@media (max-width: 1000px) {
+    .left-column {
+        font-size: smaller;
+    }
+}
+
 .overlay-text h3, .overlay-text p {
     margin: 0;
     padding: 0;
@@ -126,7 +133,6 @@ footer img {
     transform: translateY(-15px);
     font-size: small;
 }
-
 
 /* First page right column */
 .quote {
@@ -162,12 +168,18 @@ footer img {
     flex-direction: column;
 }
 
-.second-page-container-title-container {
+.second-page-container h3 {
     font-size: x-large;
-    line-height: 0;
+    line-height: 2em;
     background-color: #CEDF52;
 }
 
 .second-page-content-container img {
     width: 30%;
+}
+
+@media (max-width: 1000px) {
+    .second-page-content-container img {
+        display: none;
+    }
 }
