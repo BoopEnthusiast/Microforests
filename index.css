@@ -47,7 +47,7 @@ footer img {
 
 @media (max-width: 1000px) {
     main {
-        margin-bottom: 1000px;
+        margin-bottom: 700px;
     }
 
     footer {
@@ -175,12 +175,67 @@ footer img {
     margin: 0;
 }
 
+.second-page-content-container {
+    display: flex;
+    gap: 15px;
+}
+
 .second-page-content-container img {
     width: 30%;
+    object-fit: cover;
 }
 
 @media (max-width: 1000px) {
     .second-page-content-container img {
         display: none;
+    }
+}
+
+/* Second page content */
+.second-page-content {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.things-you-can-do {
+    transform: translateY(15px);
+    background-color: #CEDF52;
+    width: 40%;
+    height: max-content;
+    padding: 10px;
+}
+
+.things-you-can-do h2 {
+    font-size: xx-large;
+    line-height: 0.8em;
+    color: #fff;
+    margin: 0;
+}
+
+.things-you-can-do h5 {
+    font-size: large;
+    line-height: 1em;
+    color: #fff;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.things-you-can-do p {
+    margin: 0;
+}
+
+.where-to-get-information {
+    margin-top: auto;
+    color: #000;
+    margin-top: 40px;
+    transform: translateY(-40px);
+}
+
+@media (max-width: 1000px) {
+    .things-you-can-do {
+        width: 90%;
     }
 }
