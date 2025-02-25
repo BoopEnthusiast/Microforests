@@ -198,6 +198,7 @@ footer img {
     width: max-content;
     box-sizing: border-box;
     padding: 10px;
+    min-height: 850px;
 }
 
 .things-you-can-do {
